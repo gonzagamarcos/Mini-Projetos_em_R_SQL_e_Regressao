@@ -210,7 +210,7 @@ prop.table(table(avaliacao))
 varImpPlot(modelo2)
 
 
-# Pacotes para visualizar a análise de correlação
+# Pacotes para visualizar a análise de correlação.
 library(corrplot)
 library(corrgram)
 
