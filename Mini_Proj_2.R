@@ -202,7 +202,7 @@ previsao2.1
 
 # Avaliando o Modelo 
 
-# Compare os resultados com a primeira versao do modelo
+# Compare os resultados com a primeira versao do modelo.
 avaliacao <- previsao2.1 == teste$LOS
 table(avaliacao)
 prop.table(table(avaliacao))
