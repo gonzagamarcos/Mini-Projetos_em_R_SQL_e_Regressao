@@ -13,6 +13,7 @@ library(ggplot2)
 library(sqldf)
 library(corrplot)
 library(corrgram)
+library(randomForest)
 
 # Carregando Banco de Dados
 df <- read_csv("dataset.csv")
@@ -192,8 +193,6 @@ varImpPlot(modelo_rf_v2)
 
 # Avaliação 2: Corrgram
 corrgram(df)
-corrgram(df, order = TRUE, lower.panel = panel.shade,
-         upper.panel = panel.pie, text.panel = panel.txt)
 
 # Conclusão da Análise acima:
 
